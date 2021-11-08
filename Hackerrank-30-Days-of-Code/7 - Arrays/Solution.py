@@ -7,7 +7,7 @@ import re
 import sys
 
 def reverse_array(arr):
-    for i in range(len(arr)):
+    for i in range(len(arr)):                           # range(len(arr), -1, -1) would be the reverse array traverse. # Till -1 cause exclusive = till 0
         print(arr[len(arr) - 1 - i], end= " ")
 
 
